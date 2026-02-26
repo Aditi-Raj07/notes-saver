@@ -1,14 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { db } from "./firebase";
-import {
-  collection,
-  addDoc,
-  getDocs,
-  deleteDoc,
-  doc,
-  updateDoc
-} from "firebase/firestore";
+
 function App() {
 
   // ===== States =====
